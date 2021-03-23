@@ -28,6 +28,7 @@ h5,
 h6,
 p {
   margin-top: 0;
+  margin-bottom: 0;
 }
 ul {
   margin: 0;
@@ -170,6 +171,7 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-button:hover {
@@ -179,7 +181,8 @@ img {
 .hero-button {
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 30px;
+  margin-top: 0px;
+ 
   letter-spacing: 0.06em;
 
   font-family: Roboto;
@@ -218,7 +221,12 @@ img {
 .benefits .benefits-item + .benefits-item {
   margin-left: 30px;
 }
-
+.section-title.h3{
+  margin-bottom: 10px;
+}
+.section-title.h2{
+  margin-bottom: 50px;
+}
 /* Service */
 .section-service {
   padding-top: 0;
@@ -243,7 +251,9 @@ img {
 }
 .teem {
   background-color: #f5f4fa;
+  padding-top: 94px;
   padding-bottom: 94px;
+ 
 }
 .team-item-footer {
   background-color: #fff;
@@ -275,7 +285,7 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .team-work {
   font-size: 16px;
@@ -288,9 +298,11 @@ img {
   margin-left: 30px;
 }
 .team-item {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+              0px 1px 1px rgba(0, 0, 0, 0.14),
+              0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  height: 368px;
 }
 
 .section .section-title.h3 {
@@ -353,7 +365,9 @@ img {
 /* Portfolio CSS */
 
 /* Service */
-
+.button-portfolio-item .button{
+  margin-top: 0px;
+}
 .section .service-title {
   font-weight: bold;
   font-size: 18px;
@@ -458,7 +472,7 @@ footer {
   justify-content: center;
   display: flex;
   background-color: #fff;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .button-portfolio .button-portfolio-item + .button-portfolio-item {
   margin-left: 8px;
